@@ -1686,7 +1686,7 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`@everyone | @here
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Toxic Codes© ⬇**
+**EsDream Codes© ⬇**
 \`\`\`css
 ${thisMessage}\`\`\`
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -1722,9 +1722,9 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', 'EsDream', '• Toxic » Support Plus');
+  let rank = message.guild.member(message.author).roles.find('name', 'html', '• Toxic » Support Plus');
 
-  if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
+  if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة html لأستخدام هذا الأمر.**');
 
   let jscodes = message.guild.channels.find(`name`, "discord-html");
 
@@ -1834,7 +1834,7 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`@everyone | @here
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Toxic Codes© ⬇**
+**EsDream Codes© ⬇**
 \`\`\`css
 ${thisMessage}\`\`\`
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -1876,7 +1876,7 @@ client.on ("guildMemberAdd", member => {
 
 
 client.on("message", message => {
-            if(message.content.startsWith("#تقديم")) {
+            if(message.content.startsWith("=تقديم")) {
 		if(!message.channel.guild) return;
                 if(message.author.bot) return;
 	    let channel = message.guild.channels.find("name", "✽-التقديمات")///n3k4a is one  
@@ -1970,7 +1970,7 @@ client.on("message", message => {
 client.on("message", msg => { //Toxic Codes
   if(msg.author.bot) return;
   if(msg.channel.type === 'dm') return;
-let prefix = '#'; //البرفكس
+let prefix = '='; //البرفكس
 let msgarray = msg.content.split(" ");
 let cmd = msgarray[0];
 let args = msgarray.slice(1);
@@ -1987,7 +1987,7 @@ if(!aUser) return msg.channel.send("Couldn't find users.");
     
     let ac = msg.guild.channels.find(`name`,"القبول-الرفض"); 
     if(!ac) return msg.channel.send("Couldn't find `القبول-الرفض` channel. "); 
-    ac.send(`** [ @• Toxic » Support  ]تم بنجاح قبولك  واعطائك رتبة ${aUser}**`)
+    ac.send(`** [ @•EsDream » Support  ]تم بنجاح قبولك  واعطائك رتبة ${aUser}**`)
 
     msg.delete().catch(O_o=>{});
     var role = msg.guild.roles.find(`name`, '• Toxic » Support');
@@ -2006,7 +2006,7 @@ if(!aUser) return msg.channel.send("Couldn't find users.");
 client.on("message", msg => { 
   if(msg.author.bot) return;
   if(msg.channel.type === 'dm') return;
-let prefix = '#'; //البرفكس
+let prefix = '='; //البرفكس
 let msgarray = msg.content.split(" ");
 let cmd = msgarray[0];
 let args = msgarray.slice(1);
@@ -2036,7 +2036,7 @@ if(!aUser) return msg.channel.send("Couldn't find users.");
 
 client.on('message',async message => {
   let mention = message.mentions.members.first();///n3k4a is one  
-  if(message.content.startsWith("#رفض")) {
+  if(message.content.startsWith("=رفض")) {
   if(!message.channel.guild) return;///n3k4a is one  
   let acRoom = message.guild.channels.find('name', 'القبول-الرفض');
   if(!acRoom) return message.reply("#روم2 من فضلك انشاء روم **القبول-الرفض** او اكتب الامر");
@@ -2073,18 +2073,18 @@ client.on('message', message => {
  .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in Toxic Codes Server 💬`⦁",' ‎ ')
-.addField("**#help-js-games-1  ➺      ⦁ لعبة اسئلة فورت نايت**⦁",' ‎ ')
- .addField("**#help-js-games-2  ➺      ⦁ لعبة صراحة** ⦁",' ‎ ')
-     .addField("**#help-js-games-3  ➺      ⦁ لعبة كت تويت** ⦁",' ‎ ')
-       .addField("**#help-js-games-4  ➺      ⦁ لعبة لو خيروك** ⦁",' ‎ ')
-       .addField("**#help-js-games-5  ➺      ⦁ لعبة مريم** ⦁",' ‎ ')
-       .addField("**#help-js-games-6  ➺      ⦁ لعبة عقاب** ⦁",' ‎ ')
-       .addField("**#help-js-games-7  ➺      ⦁ لعبة فكك تحتاج جيسون** ⦁",' ‎ ')
-       .addField("**#help-js-games-8  ➺      ⦁ لعبة قرعة** ⦁",' ‎ ')
-       .addField("**#help-js-games-9  ➺      ⦁ لعبة اكس او** ⦁",' ‎ ')
-       .addField("**#help-js-games-10  ➺      ⦁ لعبة اسرع كتابة** ⦁",' ‎ ')
-   .setFooter('Toxic Cods')
+.addField("⦁`All types of codes in EsDream Codes Server 💬`⦁",' ‎ ')
+.addField("**=help-js-games-1  ➺      ⦁ لعبة اسئلة فورت نايت**⦁",' ‎ ')
+ .addField("**=help-js-games-2  ➺      ⦁ لعبة صراحة** ⦁",' ‎ ')
+     .addField("*=#help-js-games-3  ➺      ⦁ لعبة كت تويت** ⦁",' ‎ ')
+       .addField("**=help-js-games-4  ➺      ⦁ لعبة لو خيروك** ⦁",' ‎ ')
+       .addField("**=help-js-games-5  ➺      ⦁ لعبة مريم** ⦁",' ‎ ')
+       .addField("*=#help-js-games-6  ➺      ⦁ لعبة عقاب** ⦁",' ‎ ')
+       .addField("**=help-js-games-7  ➺      ⦁ لعبة فكك تحتاج جيسون** ⦁",' ‎ ')
+       .addField("**=help-js-games-8  ➺      ⦁ لعبة قرعة** ⦁",' ‎ ')
+       .addField("**=help-js-games-9  ➺      ⦁ لعبة اكس او** ⦁",' ‎ ')
+       .addField("**=help-js-games-10  ➺      ⦁ لعبة اسرع كتابة** ⦁",' ‎ ')
+   .setFooter('EsDream Codes')
 
 
    message.channel.send({embed});
@@ -2286,9 +2286,9 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• Toxic » Support');
+  let rank = message.guild.member(message.author).roles.find('name', '• python');
 
-  if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
+  if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة  python لأستخدام هذا الأمر.**');
 
   let jscodes = message.guild.channels.find(`name`, "✽-discord-py");
 
@@ -2398,7 +2398,7 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`@everyone | @here
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Toxic Codes© ⬇**
+**EsDream Codes© ⬇**
 \`\`\`css
 ${thisMessage}\`\`\`
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
