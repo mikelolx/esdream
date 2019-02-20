@@ -8,7 +8,7 @@ var Canvas = require('canvas');
 var jimp = require('jimp');
 const prefix = "=";
 const devs = ['462006869834203159' , '' , '' , ''];
-const adminprefix = =
+const adminprefix = "=";
 
 client.on('ready', () => {
     console.log('I am ready!');
